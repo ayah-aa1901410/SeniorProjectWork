@@ -1,0 +1,40 @@
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_16 (InputLayer)       [(None, 20, 40, 1)]       0         
+                                                                 
+ conv2d_10 (Conv2D)          (None, 19, 39, 16)        80        
+                                                                 
+ average_pooling2d_2 (Averag  (None, 18, 38, 16)       0         
+ ePooling2D)                                                     
+                                                                 
+ activation_4 (Activation)   (None, 18, 38, 16)        0         
+                                                                 
+ dropout_15 (Dropout)        (None, 18, 38, 16)        0         
+                                                                 
+ conv2d_11 (Conv2D)          (None, 17, 37, 32)        2080      
+                                                                 
+ average_pooling2d_3 (Averag  (None, 16, 36, 32)       0         
+ ePooling2D)                                                     
+                                                                 
+ activation_5 (Activation)   (None, 16, 36, 32)        0         
+                                                                 
+ dropout_16 (Dropout)        (None, 16, 36, 32)        0         
+                                                                 
+ flatten_13 (Flatten)        (None, 18432)             0         
+                                                                 
+ dense_56 (Dense)            (None, 32)                589856    
+                                                                 
+ activation_6 (Activation)   (None, 32)                0         
+                                                                 
+ dropout_17 (Dropout)        (None, 32)                0         
+                                                                 
+ output_layer (Dense)        (None, 1)                 33        
+                                                                 
+ activation_7 (Activation)   (None, 1)                 0         
+                                                                 
+=================================================================
+Total params: 592,049
+Trainable params: 592,049
+Non-trainable params: 0
+_________________________________________________________________
