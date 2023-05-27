@@ -1,0 +1,58 @@
+name: nav_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+
+dependencies:
+  assets_audio_player: ^3.0.6
+  flutter_sound: ^9.2.13
+  permission_handler: ^9.2.0
+#  chaquopy: ^0.0.19
+  flutter:
+    sdk: flutter
+  http:
+  cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^1.0.3
+  flutter_launcher_icons: ^0.11.0
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/
+
+  fonts:
+  - family: Pacifico
+    fonts:
+      - asset: assets/fonts/Pacifico-Regular.ttf
+  - family: Caveat
+    fonts:
+      - asset: assets/fonts/Caveat-Regular.ttf
+  - family: Tinos-Bold
+    fonts:
+      - asset: assets/fonts/Tinos-Bold.ttf
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  macos:
+    generate: true
+    image_path: "assets/images/logo.png"

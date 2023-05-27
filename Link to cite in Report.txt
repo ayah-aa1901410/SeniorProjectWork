@@ -1,0 +1,3 @@
+Orlandic, L., Teijeiro, T. & Atienza, D. The COUGHVID crowdsourcing dataset, a corpus for the study of large-scale cough analysis algorithms. Sci Data 8, 156 (2021). https://doi.org/10.1038/s41597-021-00937-4
+
+We need to reference this in our report. They are the authors/researchers who created the ML model that can classify an audio file as Cough / No Cough / Fake Cough.

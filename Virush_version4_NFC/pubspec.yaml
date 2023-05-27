@@ -1,0 +1,87 @@
+name: virush_version2
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.5
+  intl: ^0.17.0
+  charts_flutter_new: ^0.12.0
+  percent_indicator: ^4.0.1
+  syncfusion_flutter_gauges: ^21.1.41
+  liquid_progress_indicator: ^0.4.0
+
+  ##NFC
+  nfc_manager: ^3.2.0
+  flutter_blue_plus: ^1.3.0
+  ble_data_converter: ^0.9.0
+
+  ##Audio recorder
+  assets_audio_player: ^3.0.6
+  flutter_sound: ^9.2.13
+  permission_handler: ^9.2.0
+  path_provider: ^2.0.14
+  http: ^0.13.5
+
+##Firestore
+  firebase_core: ^2.7.0
+  firebase_auth: ^4.2.9
+  cloud_firestore: ^4.0.0
+##icons
+  font_awesome_flutter: ^10.4.0
+  cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.11.0
+##PDF
+  flutter_pdfview: ^1.3.0
+  pdfx: ^2.3.0
+  shared_preferences: ^2.1.1
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/docs/SystemUserManual.pdf
+    - assets/images/
+    - assets/
+
+  fonts:
+  - family: Pacifico
+    fonts:
+      - asset: assets/fonts/Pacifico-Regular.ttf
+  - family: Caveat
+    fonts:
+      - asset: assets/fonts/Caveat-Regular.ttf
+  - family: Tinos-Bold
+    fonts:
+      - asset: assets/fonts/Tinos-Bold.ttf
+
+##App logo
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  macos:
+    generate: true
+    image_path: "assets/images/logo.png"

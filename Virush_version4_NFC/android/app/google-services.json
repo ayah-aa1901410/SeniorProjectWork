@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "125326109327",
+    "project_id": "virush-e4526",
+    "storage_bucket": "virush-e4526.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125326109327:android:7c134455d3b99391c89efa",
+        "android_client_info": {
+          "package_name": "com.example.virush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125326109327-soa6slhb1i5ck4mqbg4o9jne6h9c81tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKheqLAs8e82B_mXAZwrMaAeFJ2Odn3Fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125326109327-soa6slhb1i5ck4mqbg4o9jne6h9c81tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
